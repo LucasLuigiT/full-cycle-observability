@@ -42,7 +42,7 @@ services:
       - full-cycle-observability_observability
 
   nginx:
-    build: ../nginx
+    build: ./nginx
     container_name: nginx
     ports:
       - "8280:80"
